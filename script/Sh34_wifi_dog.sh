@@ -237,7 +237,7 @@ TrustedMACList $wifidog_MACList
 
 #全局防火墙设置
 FirewallRuleSet global {
-FirewallRule allow tcp port 443
+FirewallRule allow tcp port 8080
 }
 
 #新验证用户
